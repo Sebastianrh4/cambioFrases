@@ -1,0 +1,22 @@
+.contenedor-frase{
+    text-align: center;
+    margin: 20px auto;
+    font-size: 90px;
+}
+
+.contenedor-paginacion{
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.contenedor-paginacion button{
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
