@@ -1,9 +1,9 @@
 <div>
     <div class="contenedor-frase">
-        <span (fraseActual)="mostrarFrase" *ngFor="let valor of mostrarFrase">  {{ mostrarFrase }}</span>
+        <span>  {{ frase }}</span>
     </div>
     <div class="contenedor-paginacion">
-        <button (click)="botones(2)">Anterior</button>
-        <button (click)="botones(1)">Siguiente</button>
+        <button (click)="botonAnterior()">Anterior</button>
+        <button (click)="botonSiguiente()">Siguiente</button>
     </div>
 </div>

@@ -1,6 +1,9 @@
 <div>
   <h1>Busca tus frases</h1>
   <div>
-    <app-frases (anterior)="fraseAnterior" (siguiente)="fraseSiguiente"></app-frases>
+    <app-frases
+    [frase]="fraseActual" 
+    (anterior)="fraseAnterior()" 
+    (siguiente)="fraseSiguiente()"></app-frases>
   </div>
 </div>

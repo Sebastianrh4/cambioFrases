@@ -20,6 +20,7 @@ export class AppComponent implements OnInit{
     'Es difícil encontrar un error en tu código cuando lo estás buscando, pero es mucho más difícil encontrarlo cuando asumes que tu código está libre de errores',
     'Siempre escribe tu código como si la persona que lo fuera a mantener fuera un peligroso psicópata que sabe quien eres y donde vives'];
 
+    
     ngOnInit() {
       
     }
@@ -28,7 +29,7 @@ export class AppComponent implements OnInit{
       return this.frases[this.indice];
     }
 
-    fraseanterior() {
+    fraseAnterior() {
       if (this.indice> 0) this.indice--;
     }
 
